@@ -35,3 +35,7 @@ body {
 	max-width: 1440px;
 	margin: 0 auto;
 }
+
+a {
+	@apply hover:text-btn_bg;
+}

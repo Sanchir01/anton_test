@@ -23,6 +23,8 @@ module.exports = {
 				red: '#EA1A4F',
 				gray: '#899cb1',
 				btn_bg: '#005FF8',
+				hover_select: '#002CFB',
+				hover_table: '#EAF0FA',
 				activeSidebar: 'rgba(216, 228, 251, 0.32)',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',

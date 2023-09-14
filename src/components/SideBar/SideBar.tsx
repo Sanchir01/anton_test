@@ -110,9 +110,9 @@ const SideBar: FC = () => {
 											width='24'
 											height='24'
 											filterUnits='userSpaceOnUse'
-											color-interpolation-filters='sRGB'
+											colorInterpolationFilters='sRGB'
 										>
-											<feFlood flood-opacity='0' result='BackgroundImageFix' />
+											<feFlood floodOpacity='0' result='BackgroundImageFix' />
 											<feColorMatrix
 												in='SourceAlpha'
 												type='matrix'
@@ -163,7 +163,7 @@ const SideBar: FC = () => {
 							<path
 								d='M12 0C5.376 0 0 5.376 0 12C0 18.624 5.376 24 12 24C18.624 24 24 18.624 24 12C24 5.376 18.624 0 12 0ZM18 13.2H13.2V18H10.8V13.2H6V10.8H10.8V6H13.2V10.8H18V13.2Z'
 								fill='#D8E4FB'
-								fill-opacity='0.56'
+								fillOpacity='0.56'
 							/>
 						</svg>
 					</Button>
@@ -176,11 +176,11 @@ const SideBar: FC = () => {
 							viewBox='0 0 30 30'
 							fill='none'
 						>
-							<g clip-path='url(#clip0_17704_2127)'>
+							<g clipPath='url(#clip0_17704_2127)'>
 								<path
 									d='M15 2.5C8.1 2.5 2.5 8.1 2.5 15C2.5 21.9 8.1 27.5 15 27.5C21.9 27.5 27.5 21.9 27.5 15C27.5 8.1 21.9 2.5 15 2.5ZM16.25 21.25H13.75V18.75H16.25V21.25ZM16.25 16.25H13.75V8.75H16.25V16.25Z'
 									fill='#D8E4FB'
-									fill-opacity='0.56'
+									fillOpacity='0.56'
 								/>
 							</g>
 							<defs>

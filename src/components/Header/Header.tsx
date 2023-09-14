@@ -54,13 +54,13 @@ const Header: FC = () => {
 							/>
 						</a>
 						<div className='flex gap-1 items-center'>
-							<div className='text-[15px]  text-gray-500 text-gray flex max-w-[262px]'>
+							<div className='text-[15px]  text-gray-500 text-gray flex w-[242px]'>
 								ИП Сидорова Александра Михайловна
 							</div>
 							<img src={arrow_down} alt='arrow_down' />
 						</div>
 					</div>
-					<div className={`${styles.header__avatar} 'items-center ml-10px`}>
+					<div className={`${styles.header__avatar} 'items-center ml-17px`}>
 						<Avatar>
 							<AvatarImage src={avatar} />
 						</Avatar>

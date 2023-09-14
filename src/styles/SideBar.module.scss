@@ -1,6 +1,9 @@
 .sidebar {
+	position: sticky;
+	top: 0;
+	z-index: 1;
 	margin-top: -80px;
-	min-height: 100dvh;
+	height: 100dvh;
 	positions: absolute;
 	background-color: #091336;
 	max-width: 240px;
