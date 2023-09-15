@@ -23,7 +23,6 @@ import { cn } from '@/lib/utils'
 export function DatePickerWithPresets() {
 	const [date, setDate] = React.useState<Date>()
 
-    
 	return (
 		<Popover>
 			<PopoverTrigger asChild>
