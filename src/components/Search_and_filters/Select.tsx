@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { useActions } from '@/hooks/useActions'
-import { useTypedSelector } from '@/hooks/useTypedSelector'
 import { FC, useState } from 'react'
 
 export interface IArraySelect {
@@ -15,12 +14,10 @@ const arr: IArraySelect[] = [
 ]
 const SelectCalls: FC = () => {
 	const { toggleCalls } = useActions()
-	const { calls } = useTypedSelector(state => state.filter)
+	const date = new Date()
 	const [open, setOpen] = useState<boolean>(false)
 	const [filterName, setFilterName] = useState<string>('Все Звонки')
-
-	console.log(calls)
-
+	console.log(date.toLocaleDateString())
 	const onClickListSubmit = (item: IArraySelect) => {
 		toggleCalls(item.id)
 		setOpen(false)

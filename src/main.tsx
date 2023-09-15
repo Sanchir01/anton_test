@@ -6,7 +6,13 @@ import App from './App.tsx'
 import './index.css'
 import { store } from './store/store'
 
-const client = new QueryClient()
+const client = new QueryClient({
+	defaultOptions: {
+		queries: {
+			refetchOnWindowFocus: false
+		}
+	}
+})
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
 	<React.StrictMode>

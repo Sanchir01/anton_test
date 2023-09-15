@@ -1,5 +1,6 @@
 import Container from '@/Providers/Container'
 import { FC } from 'react'
+import { DatePickerWithPresets } from '../FilterDate/Calendar'
 import Price from '../Price/Price'
 import SearchAndFilters from '../Search_and_filters/SearchAndFilters'
 import { TableDemo } from '../TableCalls/Table'
@@ -11,7 +12,7 @@ const Main: FC = () => {
 				<div className='flex flex-col'>
 					<div className='flex justify-end gap-12 items-center '>
 						<Price />
-						data
+						<DatePickerWithPresets />
 					</div>
 					<div className='pt-8'>
 						<SearchAndFilters />

@@ -8,7 +8,7 @@ function App() {
 		<>
 			<Header />
 
-			<div className='flex '>
+			<div className='flex gap-[100px]'>
 				<SideBar />
 				<Main />
 			</div>
